@@ -12,8 +12,7 @@ function Card({username , btText="Click"}) {
   <div className="absolute bottom-4 left-4 text-left">
     <h1 className="text-lg font-semibold text-white">{username}</h1>
     <p className="mt-2 text-sm text-gray-300">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-      debitis?
+      
     </p>
     <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
       {btText} ->
