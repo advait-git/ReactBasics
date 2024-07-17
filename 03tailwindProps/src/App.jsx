@@ -5,7 +5,7 @@ import Card from './components/Card'
 function App() {
 const [color,setColor] = useState("olive")
   return (
-   <div className='w-full h-screen duration-200'
+   <div className='w-full h-full duration-200'
       style={{backgroundColor:color}}
    >
     <div className='fixed flex flex-wrap 
